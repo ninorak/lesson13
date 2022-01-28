@@ -1,0 +1,41 @@
+.main-div {
+    margin: 50px auto 70px 140px;
+}
+.howto {
+    height: 95px;
+    width: 122px;
+}
+ul {
+    display: inline-block;
+}
+li {
+    display: inline-block;
+}
+.gonzalo {
+    height: 613px;
+    width: 1640px;
+    object-fit: cover;
+}
+.img-p {
+    height: 300px;
+    width: 480px;
+    object-fit: cover;
+}
+.popular-p div {
+    height: 564px;
+    width: 480px;
+}
+.last-added div {
+    height: 564px;
+    width: 480px;
+}
+.load-more {
+    font-size: 30px;
+    color: #707070;
+}
+footer {
+    height: 207px;
+    width: 100%;
+    background-color: #2E2E2E;
+    padding: 60px 140px;
+}
