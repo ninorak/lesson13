@@ -7,7 +7,7 @@ header {
 .howto {
     height: 95px;
     width: 122px;
-    margin-right: 674px;
+    margin-right: 680px;
 }
 ul {
     display: inline-block;
@@ -19,8 +19,8 @@ li {
     margin-right: 50px;
 }
 .explore {
-    margin-left: 10px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 60px;
 }
 .nav-ul li a {
     font-size: 20px;
@@ -28,7 +28,9 @@ li {
     color: #707070;
 }
 .search {
-    margin-left: 80px;
+    height: 27px;
+    width: 27px;
+    margin-left: 90px;
     vertical-align: top;
     margin-top: 27px;
 }
@@ -38,11 +40,6 @@ li {
     object-fit: cover;
     margin-top: 210px;
     margin-bottom: 140px;
-}
-.gonzalo {
-    height: 613px;
-    width: 1640px;
-    object-fit: cover;
 }
 h3 {
     font-size: 40px;
@@ -135,4 +132,112 @@ footer {
 }
 .fbsta {
     margin-top: 20px;
+}
+@media only screen and (max-width: 320px) {
+    .main-div {
+        margin: 0px;
+    }
+    .howto {
+        height: 35.86px;
+        width: 46.04px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    ul {
+        display: none;
+    }
+    .search {
+        height: 14px;
+        width: 15px;
+        margin-left: 250px;
+        margin-top: -35px;
+    }
+    .cover {
+        height: 253px;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+    h3 {
+        font-size: 15px;
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-p {
+        height: 143px;
+        width: 245.92px;
+    }
+    h4 {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+    } 
+    .more {
+        font-size: 11px;
+        margin-top: 45px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .popular-p div, .last-added div {
+        height: 286.65px;
+        width: 245.92px;
+        box-shadow: 0px 3px 3px rgba(0,0,0,0.1607843137254902);
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .popular-p, .last-added {
+        margin-left: 0px;
+    }
+    .none {
+        display: none;
+    }
+    .popular-p p, .last-added p {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .popular-p div {
+        margin-bottom: 0px;
+    }
+    .load-more {
+        font-size: 9px;
+        margin-left: 140px;
+    }
+    .last-added h3 {
+        margin-top: 0px;
+    }
+    footer {
+        height: 241px;
+        padding: 25px 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .howto-2 {
+        display: none;
+    }
+    .contact {
+        margin-top: 27px;
+        margin-right: 0px;
+        margin-left: 27px;
+        font-size: 13px;
+    }
+    .contact a {
+        font-size: 8px;
+    }
+    .address {
+        margin-top: 38px;
+        margin-right: 0px;
+        font-size: 13px;
+    }
+    .address a {
+        font-size: 8px;
+    }
+    .fbsta {
+        height: 16.91px;
+        width: 46.94px;
+        margin-left: 140px;
+    }
 }
