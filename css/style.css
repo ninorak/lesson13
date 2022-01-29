@@ -1,41 +1,123 @@
+body {
+    width: 100%;
+}
+header {
+    position: fixed;
+}
 .main-div {
     margin: 50px auto 70px 140px;
 }
 .howto {
     height: 95px;
     width: 122px;
+    margin-right: 674px;
 }
 ul {
     display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
 }
 li {
     display: inline-block;
+    margin-right: 50px;
+}
+.explore {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.nav-ul li a {
+    font-size: 20px;
+    color: #707070;
+}
+.search {
+    margin-left: 80px;
+    vertical-align: top;
+    margin-top: 27px;
+}
+.cover {
+    height: 613px;
+    width: 1620px;
+    object-fit: cover;
+    margin-top: 210px;
+    margin-bottom: 140px;
 }
 .gonzalo {
     height: 613px;
     width: 1640px;
     object-fit: cover;
 }
+h3 {
+    font-size: 40px;
+    color: #707070;
+    margin-bottom: 70px;
+}
+.flex {
+    display: flex;
+}
 .img-p {
     height: 300px;
     width: 480px;
     object-fit: cover;
 }
-.popular-p div {
-    height: 564px;
-    width: 480px;
+h4 {
+    font-size: 30px;
+    color: #707070;
+    margin: 30px auto 30px 10px;
+} 
+.more {
+    font-size: 24px;
+    color: #707070;
+    float: right;
+    margin-top: 87px;
+    margin-right: 13px;
+    margin-bottom: 40px;
 }
-.last-added div {
+.popular-p div, .last-added div {
     height: 564px;
     width: 480px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.1607843137254902 );
+    margin-right: 90px;
+}
+.popular-p p, .last-added p {
+    font-size: 18px;
+    color: #707070;
+    margin-left: 10px;
+}
+.popular-p div {
+    margin-bottom: 60px;
 }
 .load-more {
     font-size: 30px;
     color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+}
+.last-added h3 {
+    margin-top: 70px;
 }
 footer {
     height: 207px;
     width: 100%;
     background-color: #2E2E2E;
     padding: 60px 140px;
+    display: flex;
+}
+.howto-2 {
+    height: 95px;
+    width: 122px;
+    margin-right: 370px;
+}
+.contact {
+    margin-right: 360px;
+    color: #f2f2f2;
+}
+.contact a {
+    color: #f2f2f2;
+}
+.address {
+    margin-right: 295px;
+    color: #f2f2f2;
+}
+.address a {
+    color: #f2f2f2;
 }
