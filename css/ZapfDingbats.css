@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Pierre Dingbats';
+    src: url('ZapfDingbats.eot');
+    src: url('../fonts/ZapfDingbats/ZapfDingbats.eot') format('embedded-opentype'),
+        url('../fonts/ZapfDingbats/ZapfDingbats.woff2') format('woff2'),
+        url('../fonts/ZapfDingbats/ZapfDingbats.woff') format('woff'),
+        url('../fonts/ZapfDingbats/ZapfDingbats.ttf') format('truetype'),
+        url('../fonts/ZapfDingbats/ZapfDingbats.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

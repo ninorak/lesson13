@@ -24,6 +24,7 @@ li {
 }
 .nav-ul li a {
     font-size: 20px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
 }
 .search {
@@ -45,6 +46,7 @@ li {
 }
 h3 {
     font-size: 40px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
     margin-bottom: 70px;
 }
@@ -58,11 +60,13 @@ h3 {
 }
 h4 {
     font-size: 30px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
     margin: 30px auto 30px 10px;
 } 
 .more {
     font-size: 24px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
     float: right;
     margin-top: 87px;
@@ -77,6 +81,7 @@ h4 {
 }
 .popular-p p, .last-added p {
     font-size: 18px;
+    font-family: 'Pierre Dingbats', sans-serif;;
     color: #707070;
     margin-left: 10px;
 }
@@ -85,6 +90,7 @@ h4 {
 }
 .load-more {
     font-size: 30px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
     margin-left: 720px;
 }
@@ -107,20 +113,24 @@ footer {
     margin-top: 7px;
     margin-right: 370px;
     font-size: 20px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
 }
 .contact a {
     font-size: 13px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
 }
 .address {
     margin-top: 7px;
     margin-right: 300px;
     font-size: 20px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
 }
 .address a {
     font-size: 13px;
+    font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
 }
 .fbsta {
