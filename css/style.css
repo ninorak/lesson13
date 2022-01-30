@@ -90,6 +90,7 @@ h4 {
     font-family: "ArchyEDT-Bold", sans-serif;
     color: #707070;
     margin-left: 720px;
+    border-bottom: 2px solid #707070;
 }
 .last-added h3 {
     margin-top: 70px;
@@ -133,6 +134,7 @@ footer {
 .fbsta {
     margin-top: 20px;
 }
+
 @media only screen and (max-width: 320px) {
     .main-div {
         margin: 0px;
@@ -140,41 +142,45 @@ footer {
     .howto {
         height: 35.86px;
         width: 46.04px;
-        margin-top: 15px;
-        margin-left: 30px;
+        margin-top: 13px;
+        margin-right: 200px;
+        margin-left: 25px;
     }
     ul {
         display: none;
     }
     .search {
-        height: 14px;
-        width: 15px;
-        margin-left: 250px;
-        margin-top: -35px;
+        height: 13.5px;
+        width: 13.69px;
+        margin-left: 0px;
+        margin-top: 15px;
     }
     .cover {
         height: 253px;
         width: 100%;
+        margin-top: 70px;
         margin-bottom: 90px;
     }
     h3 {
         font-size: 15px;
-        margin-left: 70px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+        margin-left: 78px;
     }
     .flex {
         display: flex;
         flex-direction: column;
     }
+    .none{
+        display: none;
+    }
     .img-p {
-        height: 143px;
+        height: 144px;
         width: 245.92px;
+        object-fit: cover;
     }
     h4 {
         font-size: 15px;
-        margin-top: 15px;
-        margin-bottom: 25px;
-        margin-left: 5px;
+        margin: 15px auto 20px 5px;
     } 
     .more {
         font-size: 11px;
@@ -185,33 +191,30 @@ footer {
     .popular-p div, .last-added div {
         height: 286.65px;
         width: 245.92px;
-        box-shadow: 0px 3px 3px rgba(0,0,0,0.1607843137254902);
         margin-right: 0px;
+        margin-left: 37px;
         margin-bottom: 30px;
-    }
-    .popular-p, .last-added {
-        margin-left: 0px;
-    }
-    .none {
-        display: none;
     }
     .popular-p p, .last-added p {
         font-size: 8px;
         margin-left: 5px;
     }
     .popular-p div {
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
     .load-more {
         font-size: 9px;
         margin-left: 140px;
+        border-bottom: 2px solid #707070;
     }
     .last-added h3 {
-        margin-top: 0px;
+        margin-top: 70px;
     }
     footer {
         height: 241px;
-        padding: 25px 70px;
+        width: 100%;
+        background-color: #2E2E2E;
+        padding: 0px;
         display: flex;
         flex-direction: column;
     }
@@ -219,25 +222,22 @@ footer {
         display: none;
     }
     .contact {
-        margin-top: 27px;
-        margin-right: 0px;
-        margin-left: 27px;
-        font-size: 13px;
-    }
-    .contact a {
-        font-size: 8px;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     .address {
-        margin-top: 38px;
-        margin-right: 0px;
-        font-size: 13px;
-    }
-    .address a {
-        font-size: 8px;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     .fbsta {
         height: 16.91px;
         width: 46.94px;
-        margin-left: 140px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
