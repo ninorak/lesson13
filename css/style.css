@@ -170,7 +170,7 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .none{
+    .section div:nth-child(3){
         display: none;
     }
     .img-p {
@@ -208,14 +208,13 @@ footer {
         border-bottom: 2px solid #707070;
     }
     .last-added h3 {
-        margin-top: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     footer {
         height: 241px;
         width: 100%;
-        background-color: #2E2E2E;
         padding: 0px;
-        display: flex;
         flex-direction: column;
     }
     .howto-2 {
