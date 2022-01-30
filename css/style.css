@@ -76,20 +76,18 @@ h4 {
     margin-right: 13px;
     margin-bottom: 40px;
 }
-.popular-p div, .last-added div {
+.box {
     box-shadow: 0px 3px 3px rgba(0,0,0,0.1607843137254902 );
 }
-.popular-p p, .last-added p {
+.box p {
     font-size: 18px;
     font-family: 'Pierre Dingbats', sans-serif;;
     color: #707070;
     margin-left: 10px;
 }
-.popular-p div {
-    margin-bottom: 60px;
-}
 .load{
     text-align: center;
+    margin-top: 60px;
 }
 .load-more {
     font-size: 30px;
@@ -104,17 +102,21 @@ footer {
     height: 207px;
     width: 100%;
     background-color: #2E2E2E;
-    padding: 0px 140px;
+    padding-top: 56px;
+    padding-right: 7.6%;
+    padding-left: 7.6%;
+    margin-top: 65px;
     display: flex;
+    align-items: flex-start;
 }
 .howto-2 {
     height: 95px;
     width: 122px;
-    margin-right: 380px;
+    margin-right: 19%;
 }
 .contact {
     margin-top: 7px;
-    margin-right: 370px;
+    margin-right: 17%;
     font-size: 20px;
     font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
@@ -126,7 +128,7 @@ footer {
 }
 .address {
     margin-top: 7px;
-    margin-right: 200px;
+    margin-right: 17%;
     font-size: 20px;
     font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
@@ -136,17 +138,16 @@ footer {
     font-family: "ArchyEDT-Bold", sans-serif;
     color: #f2f2f2;
 }
-.fbsta {
-    margin-top: 20px;
-}
 
 @media only screen and (max-width: 320px) {
+    .main-div {
+        width: 100%;
+    }
     .howto {
         height: 35.86px;
         width: 46.04px;
         margin-top: 13px;
-        margin-right: 200px;
-        margin-left: 25px;
+        margin-left: 11.5%;
     }
     ul {
         display: none;
@@ -154,31 +155,29 @@ footer {
     .search {
         height: 13.5px;
         width: 13.69px;
-        margin-left: 0px;
-        margin-top: 15px;
     }
     .cover {
-        height: 253px;
-        width: 100%;
         margin-top: 70px;
         margin-bottom: 90px;
     }
     h3 {
         font-size: 15px;
+        margin-left: 25%;
         margin-bottom: 35px;
-        margin-left: 78px;
     }
     .flex {
-        display: flex;
         flex-direction: column;
+        gap: 30px;
+        margin-left: 11.5%;
     }
-    .section div:nth-child(3){
+    .flex div:nth-child(3) {
         display: none;
+    }
+    .flex div{
+        width: 76.875%;
     }
     .img-p {
         height: 144px;
-        width: 245.92px;
-        object-fit: cover;
     }
     h4 {
         font-size: 15px;
@@ -188,35 +187,24 @@ footer {
         font-size: 11px;
         margin-top: 45px;
         margin-right: 10px;
-        margin-bottom: 20px;
     }
-    .popular-p div, .last-added div {
-        height: 286.65px;
-        width: 245.92px;
-        margin-right: 0px;
-        margin-left: 37px;
-        margin-bottom: 30px;
-    }
-    .popular-p p, .last-added p {
+    .box p {
         font-size: 8px;
         margin-left: 5px;
     }
-    .popular-p div {
-        margin-bottom: 30px;
+    .load {
+        margin-top: 30px;
     }
     .load-more {
         font-size: 9px;
-        margin-left: 140px;
-        border-bottom: 2px solid #707070;
     }
     .last-added h3 {
         margin-top: 30px;
-        margin-bottom: 30px;
     }
     footer {
         height: 241px;
-        width: 100%;
-        padding: 0px;
+        padding: 0;
+        margin-top: 30px;
         flex-direction: column;
     }
     .howto-2 {
@@ -224,19 +212,21 @@ footer {
     }
     .contact {
         margin-top: 25px;
-        margin-left: auto;
         margin-right: auto;
+        margin-left: auto;
+        font-size: 20px;
         text-align: center;
     }
     .address {
         margin-top: 35px;
-        margin-left: auto;
         margin-right: auto;
+        margin-left: auto;
+        font-size: 20px;
         text-align: center;
     }
     .fbsta {
         height: 16.91px;
-        width: 46.94px;
+        width: 46.84px;
         margin-top: 40px;
         margin-right: auto;
         margin-left: auto;
